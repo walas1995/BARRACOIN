@@ -6,10 +6,10 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     
-    uint public totalSupply = 10000 * 10 ** 18;
-    string public name = "BitLucas";
-    string public symbol = "BLC";
-    uint public decimals = 18;
+    uint public totalSupply =  1000000*10**8
+    string public name = "GOLDBARRA";
+    string public symbol = "GOLBAR";
+    uint public decimals = 8;
     
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
